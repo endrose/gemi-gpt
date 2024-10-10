@@ -18,9 +18,9 @@ class _MyHomePageState extends ConsumerState<MyHomePage> {
   bool isLoading = false;
 
   final List<MessageModel> _message = [
-    MessageModel(text: 'Hi', user: true),
-    MessageModel(text: 'Hello', user: false),
-    MessageModel(text: 'Can I ask something', user: true),
+    // MessageModel(text: 'Hi', user: true),
+    // MessageModel(text: 'Hello', user: false),
+    // MessageModel(text: 'Can I ask something', user: true),
   ];
 
   callGeminiMode() async {
